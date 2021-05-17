@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+.mobile__navbar{
+    .mobile__navbar__content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 4vw;
+        .mobile__navbar__logo{
+            font-size: 20px;
+            font-weight: 500;
+            font-family: 'Poppins', sans-serif;
+            //color: #72147e;
+        }
+    }
+}
+

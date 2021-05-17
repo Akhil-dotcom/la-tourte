@@ -1,0 +1,45 @@
+.mobile__favourite{
+    padding: 1em;
+    //background-color: #fe4a52;
+    height: 100vh;
+    .mobile__favourite__head{
+        font-size: 1em;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+    }
+    .mobile__favourite__content{
+        .mobile__swiper{
+            padding: .3em 0 0 0;
+            .mobile__fav{
+                min-height: 35vh;
+                display: flex;
+                flex-direction: column;
+                .mobile__fav__image{
+                    flex: .9;
+                    height: 100%;
+                    background-color: rgb(247, 210, 204);
+                    border-radius: .5em;
+                }
+                .mobile__fav__info{
+                    padding-top: .3em;
+                    flex: .1;
+                    //background-color: fuchsia;
+                    .mobile__fav__name{
+                        font-size: 1em;
+                        font-family: 'Poppins', sans-serif;
+                        font-weight: 500;
+                    }
+                    .mobile__fav__price{
+                        font-size: 1em;
+                        font-family: 'Poppins', sans-serif;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+

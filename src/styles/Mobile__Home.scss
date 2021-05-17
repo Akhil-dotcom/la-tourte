@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.mobile__home{
+    //background-color: #060718;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 15vh;
+    background-color: #ffffff;
+    height: 100vh;
+    .mobile__home__content{
+        padding: 0 1em;
+        .mobile__home__head{
+            font-size: 2em;
+            font-weight: 600;
+            font-family: 'Poppins', sans-serif;
+            width: 80%;
+        }
+    }
+}

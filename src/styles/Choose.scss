@@ -1,0 +1,92 @@
+.choose{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(226, 224, 226);
+    .choose__sub{
+        padding-top: 3vw;
+        font-size: 1.3vw;
+        color: rgb(209, 5, 148);
+        padding-bottom: .5vw;
+    }
+    .choose__head{
+        font-size: 3vw;
+        font-weight: 600;
+        padding-bottom: 1vw;
+        span{
+            position: relative;
+            z-index: 100;
+            font-weight: 700;
+            &:after{
+                content: "";
+                width: 100%;
+                height: 8px;
+                background-color: rgb(209, 5, 148);
+                position: absolute;
+                bottom: 10px;
+                left: 0;
+                z-index: -1;
+            }
+        }
+    }
+    .choose__content{
+        display: flex;
+        width: 80%;
+        .center{
+            box-shadow: rgba(0,0,0,.24) 0px 3px 8px;
+            //background-color: rgb(107, 15, 26);
+            background-color: #f9f9f9;
+            //background-image: linear-gradient(315deg, #6b0f1a 0%, #b91372 74%);
+            .choose__info__head,.choose__info__sub{
+                //color: #f9f9f9;
+                
+            }
+        }
+        .choose__info{
+            flex: 1;
+            padding: 4vw 2vw;
+            margin: 1vw 2vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 1vw;
+            .choose__icon{
+                padding: 1vw;
+                width: 100px;
+                border-radius: 1vw;
+                height: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .icon1{
+                background-color: #fbb034;
+background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+            }
+            .icon3{
+                background-color: #3bb78f;
+background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%);
+            }
+            .icon2{
+                background-color: #2a2a72;
+background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+            }
+            .choose__info__head{
+                font-family: 'Josefin Sans', sans-serif;
+                font-size: 1.5em;
+                padding: 2em 0 .8em;
+                font-weight: 500;
+                text-align: center;
+            }
+            .choose__info__sub{
+                font-family: 'Josefin Sans', sans-serif;
+                font-size: 1em;
+                width: 83%;
+                font-weight: 400;
+                text-align: center;
+            }
+        }
+    }
+}

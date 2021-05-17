@@ -1,0 +1,13 @@
+.menu{
+    .menu__mobile{
+        display: none;
+    }
+}
+
+@media (max-width:640px){
+    .menu{
+        .menu__mobile{
+            display: block;
+        }
+    }
+}
